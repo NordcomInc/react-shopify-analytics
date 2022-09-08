@@ -1,6 +1,6 @@
 {
     "name": "react-shopify-analytics",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Track customers using Shopify's built in analytics on headless stores",
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.js",

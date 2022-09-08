@@ -1,6 +1,8 @@
 # react-shopify-analytics
 
-[![License](https://img.shields.io/github/license/filiphsps/react-shopify-analytics.svg)](https://github.com/filiphsps/react-shopify-analytics/blob/master/LICENSE) [![npm](https://img.shields.io/npm/dt/react-shopify-analytics)](https://www.npmjs.com/package/react-shopify-analytics) [![Contributors](https://img.shields.io/github/contributors/filiphsps/react-shopify-analytics.svg)](https://github.com/filiphsps/react-shopify-analytics/graphs/contributors)
+[![License](https://img.shields.io/github/license/filiphsps/react-shopify-analytics.svg)](https://github.com/filiphsps/react-shopify-analytics/blob/master/LICENSE.md) [![npm](https://img.shields.io/npm/dt/react-shopify-analytics)](https://www.npmjs.com/package/react-shopify-analytics) [![Contributors](https://img.shields.io/github/contributors/filiphsps/react-shopify-analytics.svg)](https://github.com/filiphsps/react-shopify-analytics/graphs/contributors)
+
+Shopify Analytics for headless e-commerce sites. Built for [Candy by Sweden](https://candybysweden.com?utm_source=GitHub) with ❤️.
 
 ## Why use react-shopify-analytics?
 
@@ -33,5 +35,6 @@ import { ShopifyAnalyticsProvider } from 'react-shopify-analytics';
     shopId={123456789} // Required
     sessionId="session_token" // Required
     userId="user_token" // Required
+    route="/products/hello-world" // Required
 />
 ```
