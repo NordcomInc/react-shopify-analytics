@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "@bigmichi1",
+        ":automergePatch",
+        ":automergeMinor"
+    ],
+    "automerge": true,
+    "schedule": [
+        "after 9am every weekday",
+        "before 5pm every weekday"
+    ]
+}
